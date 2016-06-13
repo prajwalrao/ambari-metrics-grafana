@@ -34,6 +34,29 @@ needs read access to the directory.
 
 ----
 
+### Dashboard Import
+
+You can automatically import pre-built dashboards for AMS & Ambari by editing the grafana.ini config file (Default location is at /etc/grafana/grafana.ini) 
+and editing this (should be at the end of the file).
+
+```
+[dashboards.json]
+;enabled = false
+;path = /var/lib/grafana/dashboards
+```
+
+to
+
+```
+[dashboards.json]
+enabled = true
+path = /var/lib/grafana/plugins/ambari-metrics-grafana/dashboards
+```
+
+If you've cloned the plugin elsewhere, replace the path above with that accordingly.
+
+**You can always import individual dashboards by using the "Import" option from the dropdown on the top left of the page (next to the logo)**
+
 #### Changelog
 
 ##### v 1.0.0 (06/14)
