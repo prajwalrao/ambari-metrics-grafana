@@ -61,7 +61,7 @@ If you've cloned the plugin elsewhere, replace the path above with that accordin
 
 #### Changelog
 
-##### v1.0.1 (06/21)
+##### v1.0.1 (06/29)
 - Edited Logo
 - Added Ambari Home Dashboard
 - Updated README
