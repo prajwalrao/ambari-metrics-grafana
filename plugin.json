@@ -16,11 +16,11 @@
       {"name": "Apache Ambari", "url": "http://ambari.apache.org"}
     ],
     "logos": {
-      "small": "img/apache-ambari-project.jpg",
-      "large": "img/apache-ambari-project.jpg"
+      "small": "img/apache-ambari-logo-sm.png",
+      "large": "img/apache-ambari-logo.png"
     },
-    "version": "1.0.0",
-    "updated": "2016-06-14"
+    "version": "1.0.1",
+    "updated": "2016-06-28"
   },
   "dependencies": {
     "grafanaVersion": "3.x.x",
