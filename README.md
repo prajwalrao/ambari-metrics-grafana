@@ -1,13 +1,31 @@
-![Apache Ambari Logo](img/apache-ambari-logo-sm.png)
-# Ambari Metrics System Plugin for Grafana 3.x
+![Apache Ambari Logo](https://raw.githubusercontent.com/prajwalrao/ambari-metrics-grafana/master/img/apache-ambari-logo-sm.png)
+# Ambari Metrics System Datasource for Grafana 3.x
+
+![Screenshot](https://raw.githubusercontent.com/prajwalrao/ambari-metrics-grafana/master/img/ams-screenshot.png)
+
+##### Ambari Metrics System ("AMS") is a system for collecting, aggregating and serving Hadoop & other Stack services and system metrics in Ambari-managed clusters.
+
+This datasource plugin allows you to visualize all the metrics that are available via the [AMS Collector API](https://cwiki.apache.org/confluence/display/AMBARI/Metrics+Collector+API+Specification). 
 
 ### Requires
 * **Apache Ambari** > 2.2.x
-* **Grafana** > 3.x.x (works with betas)
+* **Grafana** > 3.x.x
 
 ----
 
 ### Install
+
+#### Install via the Grafana CLI
+
+Use the grafana-cli tool to install Ambari Metrics System Datasource from the commandline:
+
+````
+grafana-cli plugins install praj-ams-datasource
+````
+
+The plugin will be installed into your grafana plugins directory; the default is /var/lib/grafana/plugins. [More information on the cli tool](http://docs.grafana.org/v3.0/plugins/installation/).
+
+#### OR
 
 #### Clone into plugins directory
 Either clone this repo into your grafana plugins directory (default /var/lib/grafana/plugins if your installing grafana with package).
@@ -61,7 +79,7 @@ If you've cloned the plugin elsewhere, replace the path above with that accordin
 
 #### Changelog
 
-##### v1.0.1 (06/29)
+##### v1.0.1 (06/28)
 - Edited Logo
 - Added Ambari Home Dashboard
 - Updated README
