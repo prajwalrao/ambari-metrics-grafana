@@ -40,7 +40,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -132,7 +132,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -232,7 +232,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -324,7 +324,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -440,7 +440,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -531,7 +531,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -631,7 +631,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -722,7 +722,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -854,7 +854,7 @@
           "text": "namenode",
           "value": "namenode"
         },
-        "datasource": null,
+        "datasource": "Ambari",
         "hideLabel": true,
         "includeAll": false,
         "multi": false,
@@ -878,7 +878,7 @@
           "text": "All",
           "value": ""
         },
-        "datasource": null,
+        "datasource": "Ambari",
         "includeAll": true,
         "multi": true,
         "multiFormat": "glob",

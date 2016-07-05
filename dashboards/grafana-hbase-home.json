@@ -47,7 +47,7 @@
             "rgba(237, 129, 40, 0.89)",
             "rgba(50, 172, 45, 0.97)"
           ],
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "format": "none",
@@ -114,7 +114,7 @@
             "rgba(237, 129, 40, 0.89)",
             "rgba(50, 172, 45, 0.97)"
           ],
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "format": "none",
@@ -181,7 +181,7 @@
             "rgba(237, 129, 40, 0.89)",
             "rgba(50, 172, 45, 0.97)"
           ],
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "format": "none",
@@ -248,7 +248,7 @@
             "rgba(237, 129, 40, 0.89)",
             "rgba(50, 172, 45, 0.97)"
           ],
-          "datasource": null,
+          "datasource": "Ambari",
           "decimals": 1,
           "editable": true,
           "error": false,
@@ -318,7 +318,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -406,7 +406,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -537,7 +537,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -647,7 +647,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -802,7 +802,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -934,7 +934,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -1039,7 +1039,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -1137,7 +1137,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -1222,7 +1222,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -1321,7 +1321,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -1416,7 +1416,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -1569,7 +1569,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -1730,7 +1730,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -1882,7 +1882,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -2043,7 +2043,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -2195,7 +2195,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -2356,7 +2356,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -2459,7 +2459,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -2580,7 +2580,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,

@@ -40,7 +40,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -120,7 +120,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -198,7 +198,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -277,7 +277,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -364,7 +364,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -610,7 +610,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -766,7 +766,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -852,7 +852,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -938,7 +938,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -1015,7 +1015,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -1092,7 +1092,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -1169,7 +1169,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -1255,7 +1255,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -1343,7 +1343,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -1420,7 +1420,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -1497,7 +1497,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -1583,7 +1583,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -1661,7 +1661,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -1778,7 +1778,7 @@
           "text": "nodemanager",
           "value": "nodemanager"
         },
-        "datasource": null,
+        "datasource": "Ambari",
         "hide": 1,
         "hideLabel": true,
         "includeAll": false,
@@ -1803,7 +1803,7 @@
           "text": "All",
           "value": ""
         },
-        "datasource": null,
+        "datasource": "Ambari",
         "hide": 0,
         "includeAll": true,
         "multi": true,
