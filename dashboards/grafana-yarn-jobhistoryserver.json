@@ -40,7 +40,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -116,7 +116,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -192,7 +192,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,
@@ -289,7 +289,7 @@
         {
           "aliasColors": {},
           "bars": false,
-          "datasource": null,
+          "datasource": "Ambari",
           "editable": true,
           "error": false,
           "fill": 0,

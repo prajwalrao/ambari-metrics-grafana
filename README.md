@@ -75,9 +75,25 @@ If you've cloned the plugin elsewhere, replace the path above with that accordin
 
 **You can always import individual dashboards by using the "Import" option from the dropdown on the top left of the page (next to the logo)**
 
+
+### Data source notes
+
+
+Charts in Grafana pull data from a named datasource.
+If no datasource is defined a chart will use the default datasource.
+On a vanilla Grafana install this will be the Grafana random walk.
+The Ambari dashboards included with this plugin are hard coded to use 'Ambari' as their datasource.
+Please ensure that you name your datasource appropriately.
+
+By default, the Ambari API listens on port 6188. The popup help in the Ambari Datasource selection is misleading.
+
 ----
 
 #### Changelog
+
+##### v1.0.2 (07/05)
+- Some words about datasources.
+- Expect datasource to be called 'Ambari' rather than use default in all dashboards.
 
 ##### v1.0.1 (06/28)
 - Edited Logo
