@@ -83,7 +83,6 @@ define([
             alias = alias + ' on ' + target.qmetric;
           }
           return function (res) {
-            console.log('processing metric ' + target.metric);
             if (!res.metrics[0] || target.hide) {
               return $q.when(emptyData(target.metric));
             }
@@ -109,7 +108,6 @@ define([
         var allHostMetricsData = function (target) {
           var alias = target.alias ? target.alias : target.metric;
           return function (res) {
-            console.log('processing metric ' + target.metric);
             if (!res.metrics[0] || target.hide) {
               return $q.when(emptyData(target.metric));
             }
@@ -229,12 +227,12 @@ define([
           // To speed up querying on templatized dashboards.
           if (templateSrv.variables[1] && templateSrv.variables[1].name === "hosts") {
             var splitHosts = []; var allHosts;
-            if (templateSrv._index.hosts.current.text === "All") {
-              allHosts = templateSrv._index.hosts.options.filter(function(hostName) { return hostName.text !== "All"; })
+            if (templateSrv.index.hosts.current.text === "All") {
+              allHosts = templateSrv.index.hosts.options.filter(function(hostName) { return hostName.text !== "All"; })
                 .map(function(hostVal) { return hostVal.value; });
             }
             else {
-              allHosts = templateSrv._index.hosts.current.text.split(' + ');
+              allHosts = templateSrv.index.hosts.current.text.split(' + ');
             }
             while (allHosts.length > 0) {
               splitHosts.push(allHosts.splice(0,50));
@@ -250,8 +248,6 @@ define([
         } else {
           // Non Templatized Dashboards
           metricsPromises = _.map(options.targets, function(target) {
-            console.debug('target app=' + target.app + ',' +
-              'target metric=' + target.metric + ' on host=' + target.tempHost);
             if (!!target.hosts) {
               return getHostAppIdData(target);
             } else {
@@ -370,7 +366,6 @@ define([
           url: this.url + '/ws/v1/timeline/metrics/metadata',
           method: 'GET'
         }).then(function(response) {
-          console.log(response);
           if (response.status === 200) {
             return { status: "success", message: "Data source is working", title: "Success" };
           }
@@ -383,8 +378,6 @@ define([
        * Read AppIds from cache.
        */
       this.suggestApps = function (query) {
-        console.log(query);
-
         appIds = appIds.sort();
         var appId = _.map(appIds, function (k) {
           return {text: k};
@@ -415,7 +408,6 @@ define([
        * Query Hosts on the cluster.
        */
       this.suggestHosts = function (query, app) {
-        console.log(query);
         return this._get('/ws/v1/timeline/metrics/hosts')
           .then(function (results) {
             var compToHostMap = {};

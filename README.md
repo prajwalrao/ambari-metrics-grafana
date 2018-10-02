@@ -1,5 +1,5 @@
 ![Apache Ambari Logo](https://raw.githubusercontent.com/prajwalrao/ambari-metrics-grafana/master/img/apache-ambari-logo-sm.png)
-# Ambari Metrics System Datasource for Grafana 3.x
+# Ambari Metrics System Datasource for Grafana > v4.5.x
 
 ![Screenshot](https://raw.githubusercontent.com/prajwalrao/ambari-metrics-grafana/master/img/ams-screenshot.png)
 
@@ -9,7 +9,7 @@ This datasource plugin allows you to visualize all the metrics that are availabl
 
 ### Requires
 * **Apache Ambari** > 2.2.x
-* **Grafana** > 3.x.x
+* **Grafana** > v4.5.x
 
 ----
 
@@ -78,6 +78,11 @@ If you've cloned the plugin elsewhere, replace the path above with that accordin
 ----
 
 #### Changelog
+
+#### v1.2.0 (10/02/2018)
+- Grafana > v4.5.x support added
+- fixed [#8](https://github.com/prajwalrao/ambari-metrics-grafana/issues/8)
+- removed browser console logs
 
 ##### v1.0.1 (06/28)
 - Edited Logo
